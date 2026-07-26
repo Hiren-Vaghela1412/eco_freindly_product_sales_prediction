@@ -3,3 +3,4 @@ pandas
 numpy<2.0
 scikit-learn==1.6.1
 joblib
+plotly==5.24.1
