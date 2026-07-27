@@ -177,15 +177,15 @@ This solution helps businesses:
 
 ## Application Screenshots
 
-### Home Page
+<h3 align="center">Home Page</h3>
+<p align="center">
+  <img src="Images/Home Page.png" width="800">
+</p>
 
-Add a screenshot of the Streamlit application's home page.
-
-### Prediction Output
-
-Add a screenshot showing the prediction results.
-
----
+<h3 align="center">Prediction Result</h3>
+<p align="center">
+  <img src="Images/Prediction Image.png" width="800">
+</p>
 
 ## Application Output
 
