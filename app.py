@@ -55,24 +55,24 @@ h1{
 
 model = joblib.load("lr_new.pkl")
 
-st.title("📊 Retail Sales Forecasting System")
+st.title("Retail Sales Forecasting System")
 
 st.markdown(
     """
     ### Welcome to the Sales Prediction Dashboard
 
     Predict weekly retail sales using:
-    - 🌡️ Weather Conditions
-    - 📈 Google Trend Score
-    - 💰 Marketing Spend
-    - 🏪 Store Visits
-    - 🎉 Holiday Impact
+    - Weather Conditions
+    - Google Trend Score
+    - Marketing Spend
+    - Store Visits
+    - Holiday Impact
 
     Enter the required inputs from the sidebar and click **Predict Sales** to get the forecast.
     """
 )
 
-st.sidebar.header("📋 Sales Input Parameters")
+st.sidebar.header("Sales Input Parameters")
 
 week_start = st.sidebar.date_input(
     "Week Start Date"
@@ -136,8 +136,8 @@ if st.button("Predict Sales"):
     quarterly_sales = round(weekly_sales * 13,4)
     annual_sales = round(weekly_sales * 52,4)
 
-    st.subheader("📈 Sales Forecast")
-    st.subheader("🎯 Weekly Sales Forecast")
+    st.subheader("Sales Forecast")
+    st.subheader("Weekly Sales Forecast")
 
     max_sales = weekly_sales * 1.5
 
